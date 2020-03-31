@@ -1,0 +1,30 @@
+body {
+  background-color: red;
+}
+ul {
+  list-style-type: none; /* убирает эти противные точечки у тегов <li> */
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden; /* веделяет *рамочкой чтоли, текст */
+  background-color: #333;
+}
+
+li {
+  float: left; /* делает кнопки в горизонтальном положении, а не в вертикальном */
+}
+
+li a {
+  display: block; /* Делает кнопки нормальными */
+  color: white;
+  text-align: center;
+  padding: 16px 18px; /* Внутренние отступы. Сначала ось x потом y (но это не точно)))) */
+  text-decoration: none; /* Убирает подчеркивание у слова-ссылки */
+}
+
+li a:hover {
+  background-color: #6AE19A;
+}
+
+p {
+  color: #B2E127;
+}
